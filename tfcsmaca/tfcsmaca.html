@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CSMA/CA in time and frequency domains">
+    <meta name="author" content="Julien Herzen">
+
+    <meta property="og:url"           content="http://hrzn.ch/tfcsmaca/tfcsmaca.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="How Future Wi-Fi Networks Should Use Spectrum and Time" />
+    <meta property="og:image"         content="http://hrzn.ch/tfcsmaca/imgs/ex2.jpg" />
+
+    <title>How Future Wi-Fi Networks Should Use Spectrum and Time</title>
+
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+
+
+    <div class="container">
+        <article>
+
+        <h1>How Future Wi-Fi Networks Should Use Spectrum and Time</h1>
+        <p class="article-meta"><strong>Author: </strong><a href="http://www.hrzn.ch" rel="author">Julien Herzen</a>, <strong>Date:</strong> May 19th, 2016</p>
+
+        <div class="share">
+            <div class="fb-like" data-href="http://hrzn.ch/tfcsmaca/tfcsmaca.html" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true">
+            </div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="jlhrzn">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <script type="IN/Share" data-url="http://hrzn.ch/tfcsmaca/tfcsmaca.html" data-counter="right"></script>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <g:plusone></g:plusone>
+        </div>
+
+        <p>
+        As technology makes progress, the mechanism used by Wi-Fi to avoid packet collisions is becoming more and more inefficient. In some cases, it can waste more than 90% of potentially-available throughput.
+        </p>
+
+        <p>
+        In this article, we describe a possible extension of this collision-avoidance mechanism, which could enable future Wi-Fi devices to use spectrum and time much more efficiently. Compared to recent Wi-Fi amendments, the proposed mechanism can increase throughput by more than 5 times, reduce the number of lost packets and significantly decrease the latency experienced by network traffic.
+        </p>
+
+
+
+        <h2>Introduction</h2>
+        <div id="s1"></div>
+        <p>
+        Wi-Fi networks are typically composed of an access point and some computers/phones/tablets/... connected to it. In the following, we call <i>device</i> any such piece of equipment that is using Wi-Fi. In general, interference can happen in the form of <i>collisions</i> (understand: lost data packets) if two nearby devices (which may or may not belong to the same network) transmit at the same time and on the same frequency.
+        </p>
+
+        <p>
+        To limit interference, the collision-avoidance mechanism used by Wi-Fi tries to avoid that two devices transmit <i>at the same time</i>, by having them wait for some random durations before they attempt a transmission.
+        The problem is that it wastes an amount of time that becomes disproportionately large as Wi-Fi transmission speeds improve and transmission durations decrease.
+        </p>
+
+        <p>
+        A solution could come from extending this mechanism to also avoid that two devices transmit <i>on the same frequency</i>. 
+        This would enable drastic throughput gains, because if devices operate on different frequency bands they can transmit more continuously over time.
+        Unfortunately, Wi-Fi networks currently manage frequency bands in a poor way, mostly because they adapt their channels very slowly, if at all.
+        This wastes spectrum and renders a more efficient time-domain strategy unfeasible.
+        </p>
+
+        <p>
+        Managing spectrum efficiently requires an additional piece of logic for the devices to choose the frequency band to use for each transmission.
+        This is challenging, because in general neighboring devices don't know about each other, yet in this case they would need to make fast and coherent decisions in a completely uncoordinated fashion.
+        </p>
+
+        <p>In this article, we first explain how current Wi-Fi networks operate and what are the main performance drawbacks (<a href="#s2">Section 2</a> and <a href="#s3">Section 3</a>). We then present our proposed mechanism to use time and frequency more efficiently (<a href="#s4">Section 4</a> and <a href="#s5">Section 5</a>), and give a rapid overview of the performance gains (<a href="#s6">Section 6</a>).</p>
+
+        <div id="s2"></div>
+        <h2>How Wi-Fi Currently Works</h2>
+        <h3>Frequency Domain</h3>
+        <p>
+        Wi-Fi devices use radio waves and have the ability to use different frequency bands (or <i>channels</i>).
+        In addition, recent Wi-Fi standards, such as 802.11n and 802.11ac, make it possible for Wi-Fi devices to combine several channels together to use a larger, wider frequency band. The combined <i>channel width</i> can go from 20 MHz (equivalent to one traditional channel) to 160 MHz (eight channels together).
+        Without interference, the maximum achievable transmission speed is then usually roughly proportional to the total channel width. Said differently, the time required to transmit a given amount of data is roughly inversely proportional to the channel width.
+        </p>
+
+        <p>
+        We can illustrate this with a picture:
+        <div align="center">
+            <img src="imgs/ex1.jpg" alt="Graphical representation of a possible frequency pattern for two neighboring networks" style="width:500px" class="img-responsive">
+            <figcaption>Fig 1. - Graphical representation of a possible frequency pattern for two neighboring networks.</figcaption>
+        </div>
+        </p>
+
+        <p>
+        An option to limit interference is to make neighboring Wi-Fi devices transmit on different frequency bands.
+        Most commercial access-points come with an "auto-channel" option, which allows them to scan the surrounding spectrum and select a channel on which to operate.
+        This is useful, but it's not enough:
+        <ul style="list-style-type:disc">
+          <li>In many populated areas, the number of access points usually far exceeds the number of channels, which often makes it impossible to find a "free" channel.</li>
+          <li>
+          Newer devices using large channel widths further worsen this channel exhaustion problem, because using a large channel width makes it difficult to find a large-enough free chunk of spectrum.
+          Therefore, trying to minimize interference incentivizes newer Wi-Fi devices to use only small channel widths (e.g., 20 MHz), which drastically limits their transmission speed:
+              <div align="center">
+                <img src="imgs/ex2.jpg" alt="Example with a third network joining" style="width:500px" class="img-responsive">
+                <figcaption>Fig 2. - There is only 20 MHz of free spectrum remaining for network <i>C</i>, so an auto-channel mechanism would make network <i>C</i> use a channel width of 20 MHz (even if it is capable of using more).</figcaption>
+              </div>
+          <br />
+          </li>
+          <li>These channel-assignment mechanisms select channels at slow timescales -- typically between once every few minutes to once every few days. This is much slower than the timescales at which traffic varies in packet-switched networks, which can be in the order of a few milliseconds. This mismatch can lead to a lot of spectrum wasted because most Wi-Fi networks are not actively used 100% of the time. For example, in the figure above, when network <i>A</i> or network <i>B</i> stop transmitting for a while (because, for instance, a user is generating intermittent traffic spikes by browsing the web), network <i>C</i> could immediately re-use the vacant spectrum and switch to a larger channel width to increase its throughput.
+          In fact, despite the presence of auto-channel mechanisms, Wi-Fi essentially treats spectrum as a <i>reserved resource</i>, which goes against principles of packet-switched networks.
+          </li>
+        </ul> 
+        </p>
+
+
+        <h3>Time Domain</h3>
+        <p>
+        Even when using fixed channels, the amount of available spectrum is limited and several devices often have to share common frequency bands. To limit interference in these cases, Wi-Fi uses CSMA/CA (Carrier Sensing Multiple Access with Collision Avoidance):
+        <ul style="list-style-type:disc">
+          <li>When a device needs to transmit a packet, it listens on its spectrum band to know if there is already an ongoing transmission. If there is, it remains silent (this step is the "CSMA" part).</li>
+          <li>When the device does not sense any ongoing transmission, it waits for a random number of <i>time slots</i> (on average 8), and then attempts a transmission.</li>
+          <li>If the device receives no acknowledgment from the receiving end after a transmission, it assumes the packet has been lost in a <i>collision</i>. Collisions can happen if two devices start transmitting at the same time (thus without having a chance to sense each others transmission) and their packets' signals are received concurrently by a receiver. In this case, the transmitting device doubles its average waiting time (so it is equal to 16 time slots, then 32, etc), it waits for a new randomly-selected duration, and then attempts to transmit the same packet again (these two steps are the "CA" part).</li>
+        </ul> 
+        This mechanism is great because it is simple. It can be intuitively understood as:
+        
+
+        <div class="algorithm">
+        <h4>CSMA/CA:</h4>
+        <ul style="list-style-type:disc">
+        <li>Overhear what happens and don't interrupt an ongoing transmission;</li>
+        <li>If your transmission didn't succeed, wait longer (on average) before trying to re-transmit again;</li>
+        </p>
+        </ul>
+        </div>
+        <br />
+
+        <p>
+        CSMA/CA does a good job at avoiding collisions because it is unlikely that two devices select <i>exactly</i> the same number of time slots to wait (which is the condition for a collision to happen). If a collision does happen, the devices double the average number of time slots they wait, which further reduces the probability of any two devices picking exactly the same time slot for transmission, and so on.
+        </p>
+
+        <p>
+        An especially important aspect is that CSMA/CA synchronizes transmissions relatively well even though concurrent devices <i>know nothing about each other</i>.
+        This aspect has been fundamental for the success of Wi-Fi: there is no need for complex configuration or existing infrastructure. Anyone can turn on a Wi-Fi device anywhere and it will implicitly organize its transmissions with neighbors to avoid collisions.
+        </p>
+
+        <p>
+        The figure below gives a few more details on what a typical transmission with CSMA/CA looks like:
+        <div align="center">
+                <img src="imgs/csmaca1.png" alt="Schematic representation of a typical packet transmission with CSMA/CA" style="width:500px" class="img-responsive">
+                <figcaption>Fig 3. - Schematic representation of a typical packet transmission with CSMA/CA. The device first waits until it doesn't overhear any other transmission for a given duration called "DIFS". It then counts for a certain (random) number of time slots (also called "backoff") and transmits its packet. When the receiving device successfully receives the packet, it transmits an acknowledgment (ACK), after a duration called "SIFS". If the transmitting device does not receive the acknowledgment, it repeats the process but increases the average number of time slots to wait.</figcaption>
+              </div>
+        </p>
+
+        <div id="s3"></div>
+        <h2>The Problem with Current Wi-Fi Networks</h2>
+        <p>
+        Although it is simple and robust, CSMA/CA introduces some inefficiencies because devices need to wait a certain number of time slots before they transmit.
+        With older standards such as 802.11b/g/a, this waiting time used to be small compared to the time it took to transmit a typical packet, so the cost was not high.
+        The problem is that newer standards are faster, partly thanks to the use of larger channel widths. As a consequence, they take less time to transmit a packet. In contrast, the overhead durations have not been proportionally reduced, mostly because of physical limitations -- time slots need to be long enough to account for signal propagation delays, and signals cannot travel faster than the speed of light.
+        </p>
+
+        <p>
+        As a result, the ratio of time spent doing useful transmissions over the time spent waiting becomes vanishingly small as technology progresses:
+        <div align="center">
+            <img src="imgs/csmaca2.png" alt="The fraction of time spent for transmitting packet decreases as transmission speeds increase" style="width:650px" class="img-responsive">
+            <figcaption>Fig 4. - The fraction of time spent for transmitting packet decreases as transmission speeds increase.</figcaption>
+        </div>
+        </p>
+
+        <p>
+        On the figure below, we show this ratio as a function of the transmission speed (for 802.11b/g/a/n/ac standards), for a few packet sizes:
+        <div align="center">
+            <img src="imgs/efficiency.png" alt="Efficiency of 802.11 as a function of transmission speed" style="width:350px" class="img-responsive">
+            <figcaption>Fig 5. - Efficiency of Wi-Fi as a function of transmission speed (also called "PHY rate"), for different packet sizes. This figure tells us, for example, that for a packet size of 1 kB and a transmission speed of 600 Mbps (the maximum transmission speed of 802.11n), the fraction of time spent doing useful transmissions is below 10%.</figcaption>
+        </div>
+        </p>
+
+        <p>
+        Of course, standardization committees knew about this issue, and the current solution is to increase packet size. This solution works to some extent. For instance, with a transmission speed of 600 Mbps, sending packets of 10 kB instead of 1 kB increases efficiency to about 45%. For 802.11ac, the standard allows devices to send packets with size up to 4.5 MB.
+        The problem, however, is that sending large packets is not always possible because it assumes that a large amount of traffic is readily available for transmission at any time. Unfortunately, this is not the case for many different kinds of traffic. For example, web sessions are inherently bursty (they generate small amounts of data very frequently). For such sessions, waiting for 4.5 MB (or even 10 kB) of traffic to buffer before sending a packet would introduce prohibitive delays. The same problem exists for voice and video traffic, online gaming, etc.
+        Overall, there is something frustrating with this approach because it might require to trade delay for throughput. Instead, the mechanism we propose next can increase efficiency without increasing packet sizes.
+        </p>
+
+        <div id="s4"></div>
+        <h2>What Ideal Configurations Should Look Like</h2>
+        Let us summarize the two main drawbacks of current Wi-Fi:
+        
+        <ol>
+            <li>Treating spectrum as a reserved resource implies that there are points in time where devices use less spectrum than they could.
+            </li>
+            <li>CSMA/CA is good for avoiding collisions, but the time spent waiting before transmissions becomes prohibitively large as transmission durations decrease.
+            </li>
+        </ol>
+
+        <p>
+        In order to understand the kind of solutions we should target, let's first describe what would be an <i>ideal</i> allocation of frequency bands when there are <i>N</i> active devices at some point in time:
+        <div align="center">
+            <img src="imgs/alloc_N.png" alt="Ideal allocations of frequency bands" style="width:650px" class="img-responsive">
+            <figcaption>Fig 6. - Ideal allocation of frequency bands for <i>N</i> active devices. For simplicity of illustration, we consider a case where there is 160 MHz of available spectrum in total and the minimum channel width is 20 MHz.</figcaption>
+        </div>
+        </p>
+        <p>
+        <ul>
+            <li>
+            When <i>N=1</i>, there is only one active device and it should use the largest possible channel width, because this is the frequency configuration offering the largest throughput. In this configuration, the device can also adopt a different time-domain behavior: since it is the only active device, it does not need to be so "polite" and wait on average 8 time slots before transmitting its packets. Instead, it can be much more "aggressive" by waiting much less before each packet. 
+            </li>
+            <li>
+            When <i>N=2</i>, the two active devices should split the spectrum in two parts, in order to separate their transmissions in the frequency domain. This has two advantages:
+            <ul>
+                <li>Using smaller channel widths increases transmission durations, which in turn amortizes the overhead due to waiting. Note, however, that using a small channel width is good only when the full spectrum is filled (i.e., when <i>N > 1</i>). Otherwise, this gain is outweighted by spectrum waste.</li>
+                <li>Operating on separate frequency bands means that the devices can remain aggressive in the time domain -- again they don't need to be too polite and try to let others talk if they are alone on their frequency band.</li>
+            </ul>
+            </li>
+            <li>
+            This reasoning can be extended to <i>2 &#8804; N &#8804; 8</i>. In these cases, the ideal configuration is for the devices to operate on smaller frequency bands. This is all good, because as the channel widths get smaller, transmission durations increase, which further increases overall efficiency.
+            </li>
+            <li>
+            When <i>N > 8</i>, some devices have to share some frequency bands, because there are only 8 smallest bands. In this case, this means that the devices cannot afford to be too aggressive in the time domain (they need to let others talk), and should fall back to waiting the usual 8 time slots on average before transmitting a packet. That's OK though, because when the devices use narrow channel widths, the overhead due to waiting is still drastically reduced.
+            </li>
+        </ul>
+        Note that these ideal configurations address the two drawbacks listed above: All of them use the full spectrum (addressing drawback 1) and implement a combination of reduced waiting durations and/or smaller channel widths (improving on drawback 2).
+        </p>
+
+        <div id="s5"></div>
+        <h2>CSMA/CA in Time and Frequency Domains</h2>
+        <h3>Proposed Mechanism</h3>
+        <p>
+        Now that we know what good configurations look like, we are ready to address the question of how to find them in a simple CSMA/CA-like style. This is especially challenging, because:
+        <ul>
+            <li>Dynamic traffic means that in practice the number <i>N</i> of active devices changes all the time and is unknown to the devices. As a consequence, they don't know which of the above ideal configuration they should target.</li>
+            <li><i>The devices don't know anything about each other</i>. The only information they have is whether their packets experience a collision or not. This means that they need to <i>self-organize</i> in order to find their right configuration.</li>
+        </ul>
+        </p>
+
+        <p>
+        Overall, the devices should modulate their frequency-domain aggressiveness (via the channel width) to make it commensurate to the number of surrounding active devices, without knowing this number. The key idea to make this work is to observe that the collisions or successful transmissions experienced by the packets give devices the following information:
+        <ul>
+            <li>A collision indicates that the device is not operating alone in its spectrum band and should thus seek a different spectrum band. If many collisions happen, it means that the device may be using too much spectrum to be able to find a free spectrum band, and it should thus reduce its channel width. This reasoning is the frequency-domain equivalent of the reasoning followed by CSMA/CA in the time domain to increase the number of waiting time slots.</li>
+            <li>Repeated successful transmissions is a signal that the device is likely to be alone in its frequency band. It should thus remain in this band and, occasionally, increase its channel width in order to reclaim some potentially-vacant spectrum.</li>
+        </ul>
+        Translating these observations to slightly more concrete actions, the algorithm should look like this:
+        <div class="algorithm">
+        <h4>TF-CSMA/CA:</h4>
+        <ul style="list-style-type:disc">
+        <li><b>Overhear what happens on your current frequency band and don't interrupt an ongoing transmission;</b></li>
+        <li><b>If your transmission didn't succeed, switch to a different channel and divide your channel width by 2 with some probability</b> <i>&beta;</i> <b>before trying to transmit again. Also increase the average number of time slots to wait before transmitting;</b></li>
+        <li><b>After a successful transmission, keep using the same band but double your channel width with some probability</b> <i>&alpha;</i>.</li>
+        </ul>
+        </div>
+        <br />
+        We call this algorithm TF-CSMA/CA (standing for CSMA/CA in time and frequency domains).
+        </p>
+
+        <p>At first sight, it seems that devices keep changing channels and channel widths all the time, and that they can sometimes make bad decisions by doing so. How can we know that this is self-organizing? The key intuition here is that for right values of the probabilities <i>&beta;</i> and <i>&alpha;</i> the devices spend on average long durations in good (understand: close to ideal) configurations.
+        It is possible to mathematically prove this property, and get good values for <i>&beta;</i> and <i>&alpha;</i> in the process. In fact, <i>&beta;</i> should depend on the channel width being used -- we refer the interested reader to the <a href="http://www.hrzn.ch/publications/tf-icnp15.pdf">technical paper</a> for more details, but we give an example below that should help understand this point.
+
+        <h3>An Example with Two Devices</h3>
+        <p>
+        Let's see now how this would work out in a simple case where there are two neighboring devices <i>A</i> and <i>B</i>, each starting out using the largest possible channel width. For simplicity, let's say that this channel width is 160 MHz (as for 802.11ac) and that there is only 160 MHz of usable spectrum in total. 
+        In this case, because the neighboring devices send their packets nearly back-to-back, a collision will quickly happen (if it doesn't, it means there is no problem -- for instance the devices are too far appart to really interfere).
+        After a collision, both devices reduce their channel width with probability <i>&beta;</i>. Let's assume here that <i>&beta; = 1</i> when the devices use the largest channel width (this is actually the optimal value for <i>&beta;</i> in this case). Both devices would thus reduce their channel width to 80 MHz and randomly switch to a different frequency band (within the large 160 MHz band). If they divide their channel width by 2 and choose their new frequency band uniformly at random, there are four different ways this can play out, each with a probability of 0.25:
+        <div align="center">
+            <img src="imgs/ex3.jpg" alt="The four possible scenarios after the first collision" style="width:600px" class="img-responsive">
+            <figcaption>Fig 7. - The four possible scenarios after the first collision; both devices reduce their channel width to 80 MHz and select a new center-frequency uniformly at random. Each case takes place with a probability of 0.25.</figcaption>
+        </div>
+        </p>
+
+        <p>
+        Using this figure, we can see that we have the following configurations:
+        <ul style="list-style-type:disc">
+            <li>With probability 0.5, both networks end up on the same 80 MHz half of the spectrum.
+            </li>
+            <li>With probability 0.5, the networks end up on different 80 MHz halves of the spectrum.
+            </li>
+        </ul>
+        So with probability 0.5 the devices may still experience a collision and the game repeats itself (except that <i>&beta;</i> is now different as it depends on the channel width). Conversely, with probability 0.5 both devices end up in the ideal configuration, where they use distinct parts of the spectrum. In this second case, the game stops repeating itself for a while, because the devices use different parts of the spectrum and don't experience collisions anymore. If <i>&alpha;</i> is small enough, the devices remain in this ideal configuration for a long time on average before increasing their channel width again. For example if <i>&alpha; = 0.001</i>, each device does on average 1000 transmissions in this configuration before leaving it.
+        This property, combined with the fact that the devices will repeat this "game" often enough to end in such a configuration, implies that <i>most transmissions are done in the ideal configuration</i>. 
+        </p>
+        <p>
+        In contrast, assume now that one of the two devices stops transmitting (for instance because it is done downloading a file). Then, the spectrum is under-utilized only for an average duration of 1000 packet transmissions (that is, until the other device increases its bandwidth again, which happens with probability <i>&alpha;</i> after each packet transmission). Considering the durations of packet transmissions, this means that spectrum is under-utilized for typically less than a second. This is to be contrasted with the timescales of spectrum under-utilization with current auto-channel algorithms, which are typically days!
+        </p>
+
+        <h4>Slightly More Details on this Example (can be skipped):</h4>
+        <p>
+        It is possible to model the above simple example (with two devices and only two channel widths, in the general case where <i>&beta; &#8804; 1</i>) as a Markov chain with four states <i>A, B, C</i> and <i>D</i>, where each state represents one of the four configurations shown on Figure 7 (note that now the letters <i>A, B, C</i> and <i>D</i> represent a <i>global frequency-allocation pattern across all devices</i>):
+        <div align="center">
+            <img src="imgs/markov.png" alt="The four states of Figure 5 represented as states of a Markov chain" style="width:550px" class="img-responsive">
+            <figcaption>Fig 8. - The four states of Figure 7 represented as states of a Markov chain. The frequency bands used by the two devices are represented by two segments within each state. The arrows show transition probabilities (self-transitions are omitted). <i>p</i> denotes the collision probability. In this case, state <i>D</i> is the "ideal" state, where the two devices use different bands in a way that uses the whole available spectrum.</figcaption>
+        </div>
+        </p>
+        <p>
+        For this model, it is easy to show that <i>the two devices spend an arbitrarily large fraction of the time in the ideal configuration D when &alpha; is small enough</i>. This result can also be extended to more general configurations with <i>N > 2</i> devices.
+        </p>
+
+        <h3>Time-Domain Behavior</h3>
+        <p>
+        Now, the fact that devices spend most of their time in good frequency bands similar to what is shown on Figure 6 is great, because it enables us to configure the algorithm to be much more aggressive in the time domain.
+        Here, we can simply select the average number of waiting time slots as a function of the current channel width.
+        When a device uses the largest channel width (e.g., 160 MHz for 802.11ac), it is likely the only active device around, and waiting only for 1 time slot on average is enough. Then, when the devices use smaller channel widths, it can indicate that there are other devices around. In these cases we recommend using an average number of time slots inversely proportional to the channel width. In our 802.11ac example, this would mean an average of 2 time slots at 80 MHz, 4 time slots at 40 MHz and 8 time slots at 20 MHz.
+        Note here that increasing waiting time at smaller channel widths does not impact performance much, because smaller channel widths increase transmission durations anyway.
+        </p>
+
+        <div id="s6"></div>
+        <h2>Evaluation</h2>
+        <h4>Performance</h4>
+        <p>
+        We now measure the performance for TF-CSMA/CA and three other techniques:
+        <ul style="list-style-type:disc">
+            <li><b>802.11</b>: Wi-Fi using the full spectrum band (160 MHz) and the default CSMA/CA mechanism to avoid collisions;</li>
+            <li><b>Optimal TDMA</b>: This is the performance obtained when all devices use the full spectrum band, but without the inefficiencies of the backoff mechanism of CSMA/CA. It's what we would obtain if there were a magical hand organizing transmissions in a perfect fashion in the time domain;</li>
+            <li><b>Optimal spectrum</b>: This is the performance obtained when the devices use Wi-Fi with the default CSMA/CA, but the optimal assignments of frequency bands shown on Figure 6.</li>
+        </ul>
+        On the figure below, we show the throughput for packet sizes of 1 kB when the transmission speed is 600 Mbps (like for 802.11n):
+        <div align="center">
+            <img src="imgs/perf1.png" alt="Throughput (represented on a normalized scale) as a function of the number of devices" style="width:400px" class="img-responsive">
+            <figcaption>Fig 9. - Throughput (represented on a normalized scale) as a function of the number of devices <i>N</i>.</figcaption>
+        </div>
+        </p>
+        <p>
+        When <i>N = 1</i>, TF-CSMA/CA is about 50% faster than Wi-Fi and comparable to optimal TDMA. In this case, the gain is due only to the reduction of waiting durations from 8 time slots to 1 time slot on average. When <i>N</i> increases, however, the throughput can be increased more than 5 times. The larger increase for larger <i>N</i> is due to the use of smaller channel widths, which drastically increase efficiency by increasing transmission durations.
+        </p>
+
+        <h4>Self-Organization</h4>        
+        <p>
+        Finding good frequency bands involves solving a tradeoff: on one hand, using small channel widths makes it easier to find free frequency bands. On the other hand, using small channel width may under-utilize spectrum as a whole.
+        In order to quantify how TF-CSMA/CA addresses this tradeoff, we define two quantities:
+        <ul>
+            <li><b>Spectrum usage:</b> Fraction of total spectrum used by <i>at least one</i> device;</li>
+            <li><b>Interference:</b> Fraction of total spectrum used by <i>more than one</i> device.</li>
+        </ul>
+        Ideal configurations minimize interference while maximizing spectrum usage (see Figure 6 for examples).
+        On the figure below, we show spectrum usage and interference for TF-CSMA/CA when there are <i>N = 5</i> devices, which all start using the same frequency band with the largest channel width (which is the worst spectrum configuration):
+        <div align="center">
+            <img src="imgs/perf2.png" alt="Time evolution of spectrum usage and interference when 5 devices run TF-CSMA/CA" style="width:400px" class="img-responsive">
+            <figcaption>Fig 10. - Time evolution of spectrum usage and interference when 5 devices run TF-CSMA/CA.</figcaption>
+        </div>
+        </p>
+        <p>
+        Originally, both spectrum usage and interference are high, because all devices use the full spectrum. Quite remarkably, the devices <i>self-organize</i>  very quickly (within about 50 milliseconds) and reach configurations that produce almost no interference, while still using about 70% of the spectrum. TF-CSMA/CA pays a small inefficiency price by slightly under-utilizing the spectrum. However, as shown on Figure 9, this is largely compensated by drastic gains in the time domain, mainly via the use of smaller channel widths.
+        </p>
+
+        <h4>Other Performance Considerations</h4>
+        We refer the reader to the <a href="http://www.hrzn.ch/publications/tf-icnp15.pdf">technical paper</a> for more details and performance results. Some additional results include:
+        <ul>
+            <li>The devices select on average channel widths proportional to <i>1/N</i>, even though they do not know <i>N</i>.</li>
+            <li>TF-CSMA/CA improves fairness, in the sense that transmission opportunities are better spread among all devices, which reduces variation of packet delays.</li>
+            <li>TF-CSMA/CA reduces the absolute number of collisions, mainly because devices mostly operate on separate spectrum bands. This can be helpful to TCP, which is especially sensitive to packet loss.</li>
+            <li>There are also drastic performance gains when the traffic is dynamic and rapidly varying.</li>
+        </ul>
+
+        <div id="s7"></div>
+        <h2>Conclusions</h2>
+        <p>
+            We have presented TF-CSMA/CA, which is a simple extension of CSMA/CA to the frequency domain. Using only information about their packets' collisions or successes, the devices can organize themselves to use efficient frequency bands and quickly react to varying traffic conditions. 
+            Algorithms of the flavour of TF-CSMA/CA will be enabled by new emerging capabilities of hardware, which allow devices to easily switch their frequency band on a per-packet basis.
+            Overall, we think that this kind of algorithms represent a natural way to depart from today's view of spectrum as a reserved resource, which will drastically increase the performance of future Wi-Fi networks.
+        </p>
+
+        <h2>Reference</h2>
+        Julien Herzen, Albert Banchs, Vsevolod Shneer and Patrick Thiran. <strong><a href="http://www.hrzn.ch/publications/tf-icnp15.pdf">CSMA/CA in Time and Frequency Domains</a></strong> <em>in IEEE ICNP</em>, 2015.
+
+        <div id="footer">
+          <footer class="container">
+              <p></p>
+          </footer>
+        </div>
+
+    </article>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-51358155-1', 'hrzn.ch');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
+

@@ -1,0 +1,132 @@
+body {
+    margin-bottom: 20px;
+}
+
+header {
+	font-family: 'Roboto Slab', serif;
+}
+
+figcaption {
+	text-align: justify;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+.container {
+	text-align: justify;
+	max-width: 800px;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+.algorithm {
+	margin: auto;
+	padding: 6px;
+	padding-right: 30px;
+	background-color: #E0E0E0;
+	border:1px black solid;
+	max-width: 700px;
+	font-weight: bold;
+}
+
+.share {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.fb-like.fb_iframe_widget span{
+  /* vertical-align: top !important; */
+  vertical-align: baseline !important;
+}
+
+.article-meta {
+    font-family: sans-serif;
+    color: #aaa;
+    font-size: 14px;
+}
+
+#innerNav.container .navbar-brand {
+	padding-left: 31px;
+}
+
+#top.container {
+	margin-top: 30px;
+}
+
+h2:first-child {
+	margin-top: 0;
+}
+
+.paper-actions {
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+
+.hidden {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	#top.container {
+		margin-top: 15px;
+	}	
+}
+
+#footer {
+	padding-top: 15px;
+}
+
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -20px;
+	/* Pad bottom by footer height */
+	padding: 0 0 80px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 20px;
+}
+
+#press {
+  margin: 0;
+  padding: 0;
+}
+
+#press li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 0;
+  height: 45px;
+}
+
+#press li img {
+  background-color: white;
+  max-height: 45px;
+  max-width: 130px;
+}
+
+h1 {
+    counter-reset: h2counter;
+}
+h2:before {
+    content: counter(h2counter) ".\0000a0\0000a0";
+    counter-increment: h2counter;
+}
