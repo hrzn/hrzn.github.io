@@ -1,6 +1,5 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: 20px;
 }
 
 header {
@@ -13,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 700px;
 }
 
 #innerNav.container .navbar-brand {
@@ -22,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #top.container {
 	margin-top: 30px;
+}
+
+.top-buffer { 
+	margin-top:70px;
 }
 
 h2:first-child {
@@ -37,7 +40,7 @@ h2:first-child {
 	display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 	#top.container {
 		margin-top: 15px;
 	}	
@@ -88,5 +91,41 @@ body {
   background-color: white;
   max-height: 45px;
   max-width: 130px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+  }
+
+ /*
+.border {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	border: 1px solid #c9c9c9;
+}*/
+
+.project-text {
+	padding-left: 10px;
+}
+
+.img-logo {
+	margin-top: 7px;
+	margin-bottom: 10px;
+	width: 100%;
+  }
+
+  .img-logo-wider {
+	margin-top: 7px;
+	margin-bottom: 10px;
+	width: 130%;
+  }
+
+.social-logo{
+	width: 25px;
+	margin-right: 10px;
 }
 

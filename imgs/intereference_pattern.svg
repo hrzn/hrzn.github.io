@@ -1,0 +1,5886 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: /home/julien/Dropbox/epfl/candidacy exam/figures/20x20_t4000_T0-5.eps
+%%Creator: matplotlib version 0.99.3, http://matplotlib.sourceforge.net/
+%%CreationDate: Tue Jun 21 15:33:51 2011
+%%Orientation: portrait
+%%BoundingBox: 18 159 594 632
+%%EndComments
+%%BeginProlog
+/mpldict 8 dict def
+mpldict begin
+/m { moveto } bind def
+/l { lineto } bind def
+/r { rlineto } bind def
+/c { curveto } bind def
+/cl { closepath } bind def
+/box {
+m
+1 index 0 r
+0 exch r
+neg 0 r
+cl
+} bind def
+/clipbox {
+box
+clip
+newpath
+} bind def
+%!PS-Adobe-3.0 Resource-Font
+%%Title: DejaVu Sans
+%%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
+%%Creator: Converted from TrueType by PPR
+25 dict begin
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_cl{closepath eofill}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+/FontName /DejaVuSans def
+/PaintType 0 def
+/FontMatrix[.001 0 0 .001 0 0]def
+/FontBBox[-1020 -414 1681 1167]def
+/FontType 3 def
+/Encoding StandardEncoding def
+/FontInfo 10 dict dup begin
+/FamilyName (DejaVu Sans) def
+/FullName (DejaVu Sans) def
+/Notice (Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain ) def
+/Weight (Book) def
+/Version (Version 2.31) def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -130 def
+/UnderlineThickness 90 def
+end readonly def
+/CharStrings 4 dict dup begin
+/zero{636 0 66 -13 570 742 _sc
+318 664 _m
+267 664 229 639 203 589 _c
+177 539 165 464 165 364 _c
+165 264 177 189 203 139 _c
+229 89 267 64 318 64 _c
+369 64 407 89 433 139 _c
+458 189 471 264 471 364 _c
+471 464 458 539 433 589 _c
+407 639 369 664 318 664 _c
+318 742 _m
+399 742 461 709 505 645 _c
+548 580 570 486 570 364 _c
+570 241 548 147 505 83 _c
+461 19 399 -13 318 -13 _c
+236 -13 173 19 130 83 _c
+87 147 66 241 66 364 _c
+66 486 87 580 130 645 _c
+173 709 236 742 318 742 _c
+_cl}_d
+/one{636 0 110 0 544 729 _sc
+124 83 _m
+285 83 _l
+285 639 _l
+110 604 _l
+110 694 _l
+284 729 _l
+383 729 _l
+383 83 _l
+544 83 _l
+544 0 _l
+124 0 _l
+124 83 _l
+_cl}_d
+/two{{636 0 73 0 536 742 _sc
+192 83 _m
+536 83 _l
+536 0 _l
+73 0 _l
+73 83 _l
+110 121 161 173 226 239 _c
+290 304 331 346 348 365 _c
+380 400 402 430 414 455 _c
+426 479 433 504 433 528 _c
+433 566 419 598 392 622 _c
+365 646 330 659 286 659 _c
+255 659 222 653 188 643 _c
+154 632 117 616 78 594 _c
+78 694 _l
+118 710 155 722 189 730 _c
+223 738 255 742 284 742 _c
+359 742 419 723 464 685 _c
+509 647 532 597 532 534 _c
+532 504 526 475 515 449 _c
+504 422 484 390 454 354 _c
+446 344 420 317 376 272 _c
+332 227 271 164 192 83 _c
+_cl}_e}_d
+/five{{636 0 77 -13 549 729 _sc
+108 729 _m
+495 729 _l
+495 646 _l
+198 646 _l
+198 467 _l
+212 472 227 476 241 478 _c
+255 480 270 482 284 482 _c
+365 482 429 459 477 415 _c
+525 370 549 310 549 234 _c
+549 155 524 94 475 51 _c
+426 8 357 -13 269 -13 _c
+238 -13 207 -10 175 -6 _c
+143 -1 111 6 77 17 _c
+77 116 _l
+106 100 136 88 168 80 _c
+199 72 232 69 267 69 _c
+323 69 368 83 401 113 _c
+433 143 450 183 450 234 _c
+450 284 433 324 401 354 _c
+368 384 323 399 267 399 _c
+241 399 214 396 188 390 _c
+162 384 135 375 108 363 _c
+108 729 _l
+_cl}_e}_d
+end readonly def
+
+/BuildGlyph
+ {exch begin
+ CharStrings exch
+ 2 copy known not{pop /.notdef}if
+ true 3 1 roll get exec
+ end}_d
+
+/BuildChar {
+ 1 index /Encoding get exch get
+ 1 index /BuildGlyph get exec
+}_d
+
+FontName currentdict end definefont pop
+end
+%%EndProlog
+mpldict begin
+18 159.84 translate
+576 472.32 0 0 clipbox
+1.000 setlinewidth
+1 setlinejoin
+2 setlinecap
+[] 0 setdash
+1.000 setgray
+gsave
+0 0 m
+576 0 l
+576 472.32 l
+0 472.32 l
+0 0 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+72 47.232 m
+518.4 47.232 l
+518.4 425.088 l
+72 425.088 l
+72 47.232 l
+fill
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 66.1248 m
+72 47.232 l
+94.32 47.232 l
+94.32 66.1248 l
+72 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 85.0176 m
+72 66.1248 l
+94.32 66.1248 l
+94.32 85.0176 l
+72 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 103.91 m
+72 85.0176 l
+94.32 85.0176 l
+94.32 103.91 l
+72 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 122.803 m
+72 103.91 l
+94.32 103.91 l
+94.32 122.803 l
+72 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 141.696 m
+72 122.803 l
+94.32 122.803 l
+94.32 141.696 l
+72 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 160.589 m
+72 141.696 l
+94.32 141.696 l
+94.32 160.589 l
+72 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 179.482 m
+72 160.589 l
+94.32 160.589 l
+94.32 179.482 l
+72 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 198.374 m
+72 179.482 l
+94.32 179.482 l
+94.32 198.374 l
+72 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 217.267 m
+72 198.374 l
+94.32 198.374 l
+94.32 217.267 l
+72 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 236.16 m
+72 217.267 l
+94.32 217.267 l
+94.32 236.16 l
+72 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 255.053 m
+72 236.16 l
+94.32 236.16 l
+94.32 255.053 l
+72 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 273.946 m
+72 255.053 l
+94.32 255.053 l
+94.32 273.946 l
+72 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 292.838 m
+72 273.946 l
+94.32 273.946 l
+94.32 292.838 l
+72 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 311.731 m
+72 292.838 l
+94.32 292.838 l
+94.32 311.731 l
+72 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 330.624 m
+72 311.731 l
+94.32 311.731 l
+94.32 330.624 l
+72 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 349.517 m
+72 330.624 l
+94.32 330.624 l
+94.32 349.517 l
+72 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 368.41 m
+72 349.517 l
+94.32 349.517 l
+94.32 368.41 l
+72 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 387.302 m
+72 368.41 l
+94.32 368.41 l
+94.32 387.302 l
+72 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+72 406.195 m
+72 387.302 l
+94.32 387.302 l
+94.32 406.195 l
+72 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+72 425.088 m
+72 406.195 l
+94.32 406.195 l
+94.32 425.088 l
+72 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 66.1248 m
+94.32 47.232 l
+116.64 47.232 l
+116.64 66.1248 l
+94.32 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 85.0176 m
+94.32 66.1248 l
+116.64 66.1248 l
+116.64 85.0176 l
+94.32 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 103.91 m
+94.32 85.0176 l
+116.64 85.0176 l
+116.64 103.91 l
+94.32 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 122.803 m
+94.32 103.91 l
+116.64 103.91 l
+116.64 122.803 l
+94.32 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 141.696 m
+94.32 122.803 l
+116.64 122.803 l
+116.64 141.696 l
+94.32 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 160.589 m
+94.32 141.696 l
+116.64 141.696 l
+116.64 160.589 l
+94.32 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 179.482 m
+94.32 160.589 l
+116.64 160.589 l
+116.64 179.482 l
+94.32 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 198.374 m
+94.32 179.482 l
+116.64 179.482 l
+116.64 198.374 l
+94.32 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 217.267 m
+94.32 198.374 l
+116.64 198.374 l
+116.64 217.267 l
+94.32 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 236.16 m
+94.32 217.267 l
+116.64 217.267 l
+116.64 236.16 l
+94.32 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 255.053 m
+94.32 236.16 l
+116.64 236.16 l
+116.64 255.053 l
+94.32 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 273.946 m
+94.32 255.053 l
+116.64 255.053 l
+116.64 273.946 l
+94.32 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 292.838 m
+94.32 273.946 l
+116.64 273.946 l
+116.64 292.838 l
+94.32 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 311.731 m
+94.32 292.838 l
+116.64 292.838 l
+116.64 311.731 l
+94.32 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 330.624 m
+94.32 311.731 l
+116.64 311.731 l
+116.64 330.624 l
+94.32 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 349.517 m
+94.32 330.624 l
+116.64 330.624 l
+116.64 349.517 l
+94.32 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 368.41 m
+94.32 349.517 l
+116.64 349.517 l
+116.64 368.41 l
+94.32 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 387.302 m
+94.32 368.41 l
+116.64 368.41 l
+116.64 387.302 l
+94.32 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 406.195 m
+94.32 387.302 l
+116.64 387.302 l
+116.64 406.195 l
+94.32 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 425.088 m
+94.32 406.195 l
+116.64 406.195 l
+116.64 425.088 l
+94.32 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 66.1248 m
+116.64 47.232 l
+138.96 47.232 l
+138.96 66.1248 l
+116.64 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 85.0176 m
+116.64 66.1248 l
+138.96 66.1248 l
+138.96 85.0176 l
+116.64 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 103.91 m
+116.64 85.0176 l
+138.96 85.0176 l
+138.96 103.91 l
+116.64 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 122.803 m
+116.64 103.91 l
+138.96 103.91 l
+138.96 122.803 l
+116.64 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 141.696 m
+116.64 122.803 l
+138.96 122.803 l
+138.96 141.696 l
+116.64 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 160.589 m
+116.64 141.696 l
+138.96 141.696 l
+138.96 160.589 l
+116.64 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 179.482 m
+116.64 160.589 l
+138.96 160.589 l
+138.96 179.482 l
+116.64 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 198.374 m
+116.64 179.482 l
+138.96 179.482 l
+138.96 198.374 l
+116.64 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 217.267 m
+116.64 198.374 l
+138.96 198.374 l
+138.96 217.267 l
+116.64 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 236.16 m
+116.64 217.267 l
+138.96 217.267 l
+138.96 236.16 l
+116.64 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 255.053 m
+116.64 236.16 l
+138.96 236.16 l
+138.96 255.053 l
+116.64 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 273.946 m
+116.64 255.053 l
+138.96 255.053 l
+138.96 273.946 l
+116.64 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 292.838 m
+116.64 273.946 l
+138.96 273.946 l
+138.96 292.838 l
+116.64 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 311.731 m
+116.64 292.838 l
+138.96 292.838 l
+138.96 311.731 l
+116.64 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 330.624 m
+116.64 311.731 l
+138.96 311.731 l
+138.96 330.624 l
+116.64 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 349.517 m
+116.64 330.624 l
+138.96 330.624 l
+138.96 349.517 l
+116.64 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 368.41 m
+116.64 349.517 l
+138.96 349.517 l
+138.96 368.41 l
+116.64 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 387.302 m
+116.64 368.41 l
+138.96 368.41 l
+138.96 387.302 l
+116.64 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 406.195 m
+116.64 387.302 l
+138.96 387.302 l
+138.96 406.195 l
+116.64 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 425.088 m
+116.64 406.195 l
+138.96 406.195 l
+138.96 425.088 l
+116.64 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 66.1248 m
+138.96 47.232 l
+161.28 47.232 l
+161.28 66.1248 l
+138.96 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 85.0176 m
+138.96 66.1248 l
+161.28 66.1248 l
+161.28 85.0176 l
+138.96 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 103.91 m
+138.96 85.0176 l
+161.28 85.0176 l
+161.28 103.91 l
+138.96 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 122.803 m
+138.96 103.91 l
+161.28 103.91 l
+161.28 122.803 l
+138.96 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 141.696 m
+138.96 122.803 l
+161.28 122.803 l
+161.28 141.696 l
+138.96 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 160.589 m
+138.96 141.696 l
+161.28 141.696 l
+161.28 160.589 l
+138.96 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 179.482 m
+138.96 160.589 l
+161.28 160.589 l
+161.28 179.482 l
+138.96 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 198.374 m
+138.96 179.482 l
+161.28 179.482 l
+161.28 198.374 l
+138.96 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 217.267 m
+138.96 198.374 l
+161.28 198.374 l
+161.28 217.267 l
+138.96 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 236.16 m
+138.96 217.267 l
+161.28 217.267 l
+161.28 236.16 l
+138.96 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 255.053 m
+138.96 236.16 l
+161.28 236.16 l
+161.28 255.053 l
+138.96 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 273.946 m
+138.96 255.053 l
+161.28 255.053 l
+161.28 273.946 l
+138.96 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 292.838 m
+138.96 273.946 l
+161.28 273.946 l
+161.28 292.838 l
+138.96 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 311.731 m
+138.96 292.838 l
+161.28 292.838 l
+161.28 311.731 l
+138.96 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 330.624 m
+138.96 311.731 l
+161.28 311.731 l
+161.28 330.624 l
+138.96 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 349.517 m
+138.96 330.624 l
+161.28 330.624 l
+161.28 349.517 l
+138.96 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 368.41 m
+138.96 349.517 l
+161.28 349.517 l
+161.28 368.41 l
+138.96 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 387.302 m
+138.96 368.41 l
+161.28 368.41 l
+161.28 387.302 l
+138.96 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 406.195 m
+138.96 387.302 l
+161.28 387.302 l
+161.28 406.195 l
+138.96 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 425.088 m
+138.96 406.195 l
+161.28 406.195 l
+161.28 425.088 l
+138.96 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 66.1248 m
+161.28 47.232 l
+183.6 47.232 l
+183.6 66.1248 l
+161.28 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 85.0176 m
+161.28 66.1248 l
+183.6 66.1248 l
+183.6 85.0176 l
+161.28 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 103.91 m
+161.28 85.0176 l
+183.6 85.0176 l
+183.6 103.91 l
+161.28 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 122.803 m
+161.28 103.91 l
+183.6 103.91 l
+183.6 122.803 l
+161.28 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 141.696 m
+161.28 122.803 l
+183.6 122.803 l
+183.6 141.696 l
+161.28 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 160.589 m
+161.28 141.696 l
+183.6 141.696 l
+183.6 160.589 l
+161.28 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 179.482 m
+161.28 160.589 l
+183.6 160.589 l
+183.6 179.482 l
+161.28 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 198.374 m
+161.28 179.482 l
+183.6 179.482 l
+183.6 198.374 l
+161.28 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 217.267 m
+161.28 198.374 l
+183.6 198.374 l
+183.6 217.267 l
+161.28 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 236.16 m
+161.28 217.267 l
+183.6 217.267 l
+183.6 236.16 l
+161.28 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 255.053 m
+161.28 236.16 l
+183.6 236.16 l
+183.6 255.053 l
+161.28 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 273.946 m
+161.28 255.053 l
+183.6 255.053 l
+183.6 273.946 l
+161.28 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 292.838 m
+161.28 273.946 l
+183.6 273.946 l
+183.6 292.838 l
+161.28 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 311.731 m
+161.28 292.838 l
+183.6 292.838 l
+183.6 311.731 l
+161.28 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 330.624 m
+161.28 311.731 l
+183.6 311.731 l
+183.6 330.624 l
+161.28 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 349.517 m
+161.28 330.624 l
+183.6 330.624 l
+183.6 349.517 l
+161.28 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 368.41 m
+161.28 349.517 l
+183.6 349.517 l
+183.6 368.41 l
+161.28 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 387.302 m
+161.28 368.41 l
+183.6 368.41 l
+183.6 387.302 l
+161.28 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 406.195 m
+161.28 387.302 l
+183.6 387.302 l
+183.6 406.195 l
+161.28 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 425.088 m
+161.28 406.195 l
+183.6 406.195 l
+183.6 425.088 l
+161.28 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 66.1248 m
+183.6 47.232 l
+205.92 47.232 l
+205.92 66.1248 l
+183.6 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 85.0176 m
+183.6 66.1248 l
+205.92 66.1248 l
+205.92 85.0176 l
+183.6 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 103.91 m
+183.6 85.0176 l
+205.92 85.0176 l
+205.92 103.91 l
+183.6 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 122.803 m
+183.6 103.91 l
+205.92 103.91 l
+205.92 122.803 l
+183.6 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 141.696 m
+183.6 122.803 l
+205.92 122.803 l
+205.92 141.696 l
+183.6 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 160.589 m
+183.6 141.696 l
+205.92 141.696 l
+205.92 160.589 l
+183.6 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 179.482 m
+183.6 160.589 l
+205.92 160.589 l
+205.92 179.482 l
+183.6 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 198.374 m
+183.6 179.482 l
+205.92 179.482 l
+205.92 198.374 l
+183.6 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 217.267 m
+183.6 198.374 l
+205.92 198.374 l
+205.92 217.267 l
+183.6 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 236.16 m
+183.6 217.267 l
+205.92 217.267 l
+205.92 236.16 l
+183.6 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 255.053 m
+183.6 236.16 l
+205.92 236.16 l
+205.92 255.053 l
+183.6 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 273.946 m
+183.6 255.053 l
+205.92 255.053 l
+205.92 273.946 l
+183.6 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 292.838 m
+183.6 273.946 l
+205.92 273.946 l
+205.92 292.838 l
+183.6 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 311.731 m
+183.6 292.838 l
+205.92 292.838 l
+205.92 311.731 l
+183.6 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 330.624 m
+183.6 311.731 l
+205.92 311.731 l
+205.92 330.624 l
+183.6 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 349.517 m
+183.6 330.624 l
+205.92 330.624 l
+205.92 349.517 l
+183.6 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 368.41 m
+183.6 349.517 l
+205.92 349.517 l
+205.92 368.41 l
+183.6 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 387.302 m
+183.6 368.41 l
+205.92 368.41 l
+205.92 387.302 l
+183.6 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 406.195 m
+183.6 387.302 l
+205.92 387.302 l
+205.92 406.195 l
+183.6 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 425.088 m
+183.6 406.195 l
+205.92 406.195 l
+205.92 425.088 l
+183.6 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 66.1248 m
+205.92 47.232 l
+228.24 47.232 l
+228.24 66.1248 l
+205.92 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 85.0176 m
+205.92 66.1248 l
+228.24 66.1248 l
+228.24 85.0176 l
+205.92 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 103.91 m
+205.92 85.0176 l
+228.24 85.0176 l
+228.24 103.91 l
+205.92 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 122.803 m
+205.92 103.91 l
+228.24 103.91 l
+228.24 122.803 l
+205.92 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 141.696 m
+205.92 122.803 l
+228.24 122.803 l
+228.24 141.696 l
+205.92 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 160.589 m
+205.92 141.696 l
+228.24 141.696 l
+228.24 160.589 l
+205.92 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 179.482 m
+205.92 160.589 l
+228.24 160.589 l
+228.24 179.482 l
+205.92 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 198.374 m
+205.92 179.482 l
+228.24 179.482 l
+228.24 198.374 l
+205.92 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 217.267 m
+205.92 198.374 l
+228.24 198.374 l
+228.24 217.267 l
+205.92 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 236.16 m
+205.92 217.267 l
+228.24 217.267 l
+228.24 236.16 l
+205.92 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 255.053 m
+205.92 236.16 l
+228.24 236.16 l
+228.24 255.053 l
+205.92 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 273.946 m
+205.92 255.053 l
+228.24 255.053 l
+228.24 273.946 l
+205.92 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 292.838 m
+205.92 273.946 l
+228.24 273.946 l
+228.24 292.838 l
+205.92 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 311.731 m
+205.92 292.838 l
+228.24 292.838 l
+228.24 311.731 l
+205.92 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 330.624 m
+205.92 311.731 l
+228.24 311.731 l
+228.24 330.624 l
+205.92 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 349.517 m
+205.92 330.624 l
+228.24 330.624 l
+228.24 349.517 l
+205.92 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 368.41 m
+205.92 349.517 l
+228.24 349.517 l
+228.24 368.41 l
+205.92 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 387.302 m
+205.92 368.41 l
+228.24 368.41 l
+228.24 387.302 l
+205.92 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 406.195 m
+205.92 387.302 l
+228.24 387.302 l
+228.24 406.195 l
+205.92 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 425.088 m
+205.92 406.195 l
+228.24 406.195 l
+228.24 425.088 l
+205.92 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 66.1248 m
+228.24 47.232 l
+250.56 47.232 l
+250.56 66.1248 l
+228.24 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 85.0176 m
+228.24 66.1248 l
+250.56 66.1248 l
+250.56 85.0176 l
+228.24 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 103.91 m
+228.24 85.0176 l
+250.56 85.0176 l
+250.56 103.91 l
+228.24 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 122.803 m
+228.24 103.91 l
+250.56 103.91 l
+250.56 122.803 l
+228.24 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 141.696 m
+228.24 122.803 l
+250.56 122.803 l
+250.56 141.696 l
+228.24 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 160.589 m
+228.24 141.696 l
+250.56 141.696 l
+250.56 160.589 l
+228.24 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 179.482 m
+228.24 160.589 l
+250.56 160.589 l
+250.56 179.482 l
+228.24 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 198.374 m
+228.24 179.482 l
+250.56 179.482 l
+250.56 198.374 l
+228.24 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 217.267 m
+228.24 198.374 l
+250.56 198.374 l
+250.56 217.267 l
+228.24 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 236.16 m
+228.24 217.267 l
+250.56 217.267 l
+250.56 236.16 l
+228.24 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 255.053 m
+228.24 236.16 l
+250.56 236.16 l
+250.56 255.053 l
+228.24 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 273.946 m
+228.24 255.053 l
+250.56 255.053 l
+250.56 273.946 l
+228.24 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 292.838 m
+228.24 273.946 l
+250.56 273.946 l
+250.56 292.838 l
+228.24 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 311.731 m
+228.24 292.838 l
+250.56 292.838 l
+250.56 311.731 l
+228.24 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 330.624 m
+228.24 311.731 l
+250.56 311.731 l
+250.56 330.624 l
+228.24 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 349.517 m
+228.24 330.624 l
+250.56 330.624 l
+250.56 349.517 l
+228.24 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 368.41 m
+228.24 349.517 l
+250.56 349.517 l
+250.56 368.41 l
+228.24 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 387.302 m
+228.24 368.41 l
+250.56 368.41 l
+250.56 387.302 l
+228.24 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 406.195 m
+228.24 387.302 l
+250.56 387.302 l
+250.56 406.195 l
+228.24 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 425.088 m
+228.24 406.195 l
+250.56 406.195 l
+250.56 425.088 l
+228.24 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 66.1248 m
+250.56 47.232 l
+272.88 47.232 l
+272.88 66.1248 l
+250.56 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 85.0176 m
+250.56 66.1248 l
+272.88 66.1248 l
+272.88 85.0176 l
+250.56 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 103.91 m
+250.56 85.0176 l
+272.88 85.0176 l
+272.88 103.91 l
+250.56 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 122.803 m
+250.56 103.91 l
+272.88 103.91 l
+272.88 122.803 l
+250.56 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 141.696 m
+250.56 122.803 l
+272.88 122.803 l
+272.88 141.696 l
+250.56 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 160.589 m
+250.56 141.696 l
+272.88 141.696 l
+272.88 160.589 l
+250.56 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 179.482 m
+250.56 160.589 l
+272.88 160.589 l
+272.88 179.482 l
+250.56 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 198.374 m
+250.56 179.482 l
+272.88 179.482 l
+272.88 198.374 l
+250.56 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 217.267 m
+250.56 198.374 l
+272.88 198.374 l
+272.88 217.267 l
+250.56 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 236.16 m
+250.56 217.267 l
+272.88 217.267 l
+272.88 236.16 l
+250.56 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 255.053 m
+250.56 236.16 l
+272.88 236.16 l
+272.88 255.053 l
+250.56 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 273.946 m
+250.56 255.053 l
+272.88 255.053 l
+272.88 273.946 l
+250.56 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 292.838 m
+250.56 273.946 l
+272.88 273.946 l
+272.88 292.838 l
+250.56 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 311.731 m
+250.56 292.838 l
+272.88 292.838 l
+272.88 311.731 l
+250.56 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 330.624 m
+250.56 311.731 l
+272.88 311.731 l
+272.88 330.624 l
+250.56 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 349.517 m
+250.56 330.624 l
+272.88 330.624 l
+272.88 349.517 l
+250.56 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 368.41 m
+250.56 349.517 l
+272.88 349.517 l
+272.88 368.41 l
+250.56 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 387.302 m
+250.56 368.41 l
+272.88 368.41 l
+272.88 387.302 l
+250.56 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 406.195 m
+250.56 387.302 l
+272.88 387.302 l
+272.88 406.195 l
+250.56 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 425.088 m
+250.56 406.195 l
+272.88 406.195 l
+272.88 425.088 l
+250.56 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 66.1248 m
+272.88 47.232 l
+295.2 47.232 l
+295.2 66.1248 l
+272.88 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 85.0176 m
+272.88 66.1248 l
+295.2 66.1248 l
+295.2 85.0176 l
+272.88 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 103.91 m
+272.88 85.0176 l
+295.2 85.0176 l
+295.2 103.91 l
+272.88 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 122.803 m
+272.88 103.91 l
+295.2 103.91 l
+295.2 122.803 l
+272.88 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 141.696 m
+272.88 122.803 l
+295.2 122.803 l
+295.2 141.696 l
+272.88 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 160.589 m
+272.88 141.696 l
+295.2 141.696 l
+295.2 160.589 l
+272.88 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 179.482 m
+272.88 160.589 l
+295.2 160.589 l
+295.2 179.482 l
+272.88 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 198.374 m
+272.88 179.482 l
+295.2 179.482 l
+295.2 198.374 l
+272.88 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 217.267 m
+272.88 198.374 l
+295.2 198.374 l
+295.2 217.267 l
+272.88 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 236.16 m
+272.88 217.267 l
+295.2 217.267 l
+295.2 236.16 l
+272.88 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 255.053 m
+272.88 236.16 l
+295.2 236.16 l
+295.2 255.053 l
+272.88 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 273.946 m
+272.88 255.053 l
+295.2 255.053 l
+295.2 273.946 l
+272.88 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 292.838 m
+272.88 273.946 l
+295.2 273.946 l
+295.2 292.838 l
+272.88 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 311.731 m
+272.88 292.838 l
+295.2 292.838 l
+295.2 311.731 l
+272.88 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 330.624 m
+272.88 311.731 l
+295.2 311.731 l
+295.2 330.624 l
+272.88 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 349.517 m
+272.88 330.624 l
+295.2 330.624 l
+295.2 349.517 l
+272.88 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 368.41 m
+272.88 349.517 l
+295.2 349.517 l
+295.2 368.41 l
+272.88 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 387.302 m
+272.88 368.41 l
+295.2 368.41 l
+295.2 387.302 l
+272.88 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 406.195 m
+272.88 387.302 l
+295.2 387.302 l
+295.2 406.195 l
+272.88 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 425.088 m
+272.88 406.195 l
+295.2 406.195 l
+295.2 425.088 l
+272.88 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 66.1248 m
+295.2 47.232 l
+317.52 47.232 l
+317.52 66.1248 l
+295.2 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 85.0176 m
+295.2 66.1248 l
+317.52 66.1248 l
+317.52 85.0176 l
+295.2 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 103.91 m
+295.2 85.0176 l
+317.52 85.0176 l
+317.52 103.91 l
+295.2 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 122.803 m
+295.2 103.91 l
+317.52 103.91 l
+317.52 122.803 l
+295.2 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 141.696 m
+295.2 122.803 l
+317.52 122.803 l
+317.52 141.696 l
+295.2 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 160.589 m
+295.2 141.696 l
+317.52 141.696 l
+317.52 160.589 l
+295.2 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 179.482 m
+295.2 160.589 l
+317.52 160.589 l
+317.52 179.482 l
+295.2 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 198.374 m
+295.2 179.482 l
+317.52 179.482 l
+317.52 198.374 l
+295.2 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 217.267 m
+295.2 198.374 l
+317.52 198.374 l
+317.52 217.267 l
+295.2 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 236.16 m
+295.2 217.267 l
+317.52 217.267 l
+317.52 236.16 l
+295.2 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 255.053 m
+295.2 236.16 l
+317.52 236.16 l
+317.52 255.053 l
+295.2 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 273.946 m
+295.2 255.053 l
+317.52 255.053 l
+317.52 273.946 l
+295.2 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 292.838 m
+295.2 273.946 l
+317.52 273.946 l
+317.52 292.838 l
+295.2 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 311.731 m
+295.2 292.838 l
+317.52 292.838 l
+317.52 311.731 l
+295.2 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 330.624 m
+295.2 311.731 l
+317.52 311.731 l
+317.52 330.624 l
+295.2 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 349.517 m
+295.2 330.624 l
+317.52 330.624 l
+317.52 349.517 l
+295.2 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 368.41 m
+295.2 349.517 l
+317.52 349.517 l
+317.52 368.41 l
+295.2 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 387.302 m
+295.2 368.41 l
+317.52 368.41 l
+317.52 387.302 l
+295.2 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 406.195 m
+295.2 387.302 l
+317.52 387.302 l
+317.52 406.195 l
+295.2 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 425.088 m
+295.2 406.195 l
+317.52 406.195 l
+317.52 425.088 l
+295.2 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 66.1248 m
+317.52 47.232 l
+339.84 47.232 l
+339.84 66.1248 l
+317.52 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 85.0176 m
+317.52 66.1248 l
+339.84 66.1248 l
+339.84 85.0176 l
+317.52 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 103.91 m
+317.52 85.0176 l
+339.84 85.0176 l
+339.84 103.91 l
+317.52 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 122.803 m
+317.52 103.91 l
+339.84 103.91 l
+339.84 122.803 l
+317.52 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 141.696 m
+317.52 122.803 l
+339.84 122.803 l
+339.84 141.696 l
+317.52 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 160.589 m
+317.52 141.696 l
+339.84 141.696 l
+339.84 160.589 l
+317.52 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 179.482 m
+317.52 160.589 l
+339.84 160.589 l
+339.84 179.482 l
+317.52 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 198.374 m
+317.52 179.482 l
+339.84 179.482 l
+339.84 198.374 l
+317.52 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 217.267 m
+317.52 198.374 l
+339.84 198.374 l
+339.84 217.267 l
+317.52 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 236.16 m
+317.52 217.267 l
+339.84 217.267 l
+339.84 236.16 l
+317.52 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 255.053 m
+317.52 236.16 l
+339.84 236.16 l
+339.84 255.053 l
+317.52 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 273.946 m
+317.52 255.053 l
+339.84 255.053 l
+339.84 273.946 l
+317.52 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 292.838 m
+317.52 273.946 l
+339.84 273.946 l
+339.84 292.838 l
+317.52 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 311.731 m
+317.52 292.838 l
+339.84 292.838 l
+339.84 311.731 l
+317.52 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 330.624 m
+317.52 311.731 l
+339.84 311.731 l
+339.84 330.624 l
+317.52 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 349.517 m
+317.52 330.624 l
+339.84 330.624 l
+339.84 349.517 l
+317.52 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 368.41 m
+317.52 349.517 l
+339.84 349.517 l
+339.84 368.41 l
+317.52 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 387.302 m
+317.52 368.41 l
+339.84 368.41 l
+339.84 387.302 l
+317.52 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 406.195 m
+317.52 387.302 l
+339.84 387.302 l
+339.84 406.195 l
+317.52 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 425.088 m
+317.52 406.195 l
+339.84 406.195 l
+339.84 425.088 l
+317.52 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 66.1248 m
+339.84 47.232 l
+362.16 47.232 l
+362.16 66.1248 l
+339.84 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 85.0176 m
+339.84 66.1248 l
+362.16 66.1248 l
+362.16 85.0176 l
+339.84 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 103.91 m
+339.84 85.0176 l
+362.16 85.0176 l
+362.16 103.91 l
+339.84 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 122.803 m
+339.84 103.91 l
+362.16 103.91 l
+362.16 122.803 l
+339.84 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 141.696 m
+339.84 122.803 l
+362.16 122.803 l
+362.16 141.696 l
+339.84 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 160.589 m
+339.84 141.696 l
+362.16 141.696 l
+362.16 160.589 l
+339.84 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 179.482 m
+339.84 160.589 l
+362.16 160.589 l
+362.16 179.482 l
+339.84 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 198.374 m
+339.84 179.482 l
+362.16 179.482 l
+362.16 198.374 l
+339.84 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 217.267 m
+339.84 198.374 l
+362.16 198.374 l
+362.16 217.267 l
+339.84 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 236.16 m
+339.84 217.267 l
+362.16 217.267 l
+362.16 236.16 l
+339.84 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 255.053 m
+339.84 236.16 l
+362.16 236.16 l
+362.16 255.053 l
+339.84 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 273.946 m
+339.84 255.053 l
+362.16 255.053 l
+362.16 273.946 l
+339.84 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 292.838 m
+339.84 273.946 l
+362.16 273.946 l
+362.16 292.838 l
+339.84 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 311.731 m
+339.84 292.838 l
+362.16 292.838 l
+362.16 311.731 l
+339.84 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 330.624 m
+339.84 311.731 l
+362.16 311.731 l
+362.16 330.624 l
+339.84 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 349.517 m
+339.84 330.624 l
+362.16 330.624 l
+362.16 349.517 l
+339.84 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 368.41 m
+339.84 349.517 l
+362.16 349.517 l
+362.16 368.41 l
+339.84 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 387.302 m
+339.84 368.41 l
+362.16 368.41 l
+362.16 387.302 l
+339.84 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 406.195 m
+339.84 387.302 l
+362.16 387.302 l
+362.16 406.195 l
+339.84 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 425.088 m
+339.84 406.195 l
+362.16 406.195 l
+362.16 425.088 l
+339.84 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 66.1248 m
+362.16 47.232 l
+384.48 47.232 l
+384.48 66.1248 l
+362.16 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 85.0176 m
+362.16 66.1248 l
+384.48 66.1248 l
+384.48 85.0176 l
+362.16 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 103.91 m
+362.16 85.0176 l
+384.48 85.0176 l
+384.48 103.91 l
+362.16 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 122.803 m
+362.16 103.91 l
+384.48 103.91 l
+384.48 122.803 l
+362.16 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 141.696 m
+362.16 122.803 l
+384.48 122.803 l
+384.48 141.696 l
+362.16 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 160.589 m
+362.16 141.696 l
+384.48 141.696 l
+384.48 160.589 l
+362.16 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 179.482 m
+362.16 160.589 l
+384.48 160.589 l
+384.48 179.482 l
+362.16 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 198.374 m
+362.16 179.482 l
+384.48 179.482 l
+384.48 198.374 l
+362.16 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 217.267 m
+362.16 198.374 l
+384.48 198.374 l
+384.48 217.267 l
+362.16 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 236.16 m
+362.16 217.267 l
+384.48 217.267 l
+384.48 236.16 l
+362.16 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 255.053 m
+362.16 236.16 l
+384.48 236.16 l
+384.48 255.053 l
+362.16 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 273.946 m
+362.16 255.053 l
+384.48 255.053 l
+384.48 273.946 l
+362.16 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 292.838 m
+362.16 273.946 l
+384.48 273.946 l
+384.48 292.838 l
+362.16 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 311.731 m
+362.16 292.838 l
+384.48 292.838 l
+384.48 311.731 l
+362.16 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 330.624 m
+362.16 311.731 l
+384.48 311.731 l
+384.48 330.624 l
+362.16 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 349.517 m
+362.16 330.624 l
+384.48 330.624 l
+384.48 349.517 l
+362.16 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 368.41 m
+362.16 349.517 l
+384.48 349.517 l
+384.48 368.41 l
+362.16 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 387.302 m
+362.16 368.41 l
+384.48 368.41 l
+384.48 387.302 l
+362.16 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 406.195 m
+362.16 387.302 l
+384.48 387.302 l
+384.48 406.195 l
+362.16 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 425.088 m
+362.16 406.195 l
+384.48 406.195 l
+384.48 425.088 l
+362.16 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 66.1248 m
+384.48 47.232 l
+406.8 47.232 l
+406.8 66.1248 l
+384.48 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 85.0176 m
+384.48 66.1248 l
+406.8 66.1248 l
+406.8 85.0176 l
+384.48 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 103.91 m
+384.48 85.0176 l
+406.8 85.0176 l
+406.8 103.91 l
+384.48 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 122.803 m
+384.48 103.91 l
+406.8 103.91 l
+406.8 122.803 l
+384.48 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 141.696 m
+384.48 122.803 l
+406.8 122.803 l
+406.8 141.696 l
+384.48 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 160.589 m
+384.48 141.696 l
+406.8 141.696 l
+406.8 160.589 l
+384.48 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 179.482 m
+384.48 160.589 l
+406.8 160.589 l
+406.8 179.482 l
+384.48 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 198.374 m
+384.48 179.482 l
+406.8 179.482 l
+406.8 198.374 l
+384.48 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 217.267 m
+384.48 198.374 l
+406.8 198.374 l
+406.8 217.267 l
+384.48 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 236.16 m
+384.48 217.267 l
+406.8 217.267 l
+406.8 236.16 l
+384.48 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 255.053 m
+384.48 236.16 l
+406.8 236.16 l
+406.8 255.053 l
+384.48 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 273.946 m
+384.48 255.053 l
+406.8 255.053 l
+406.8 273.946 l
+384.48 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 292.838 m
+384.48 273.946 l
+406.8 273.946 l
+406.8 292.838 l
+384.48 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 311.731 m
+384.48 292.838 l
+406.8 292.838 l
+406.8 311.731 l
+384.48 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 330.624 m
+384.48 311.731 l
+406.8 311.731 l
+406.8 330.624 l
+384.48 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 349.517 m
+384.48 330.624 l
+406.8 330.624 l
+406.8 349.517 l
+384.48 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 368.41 m
+384.48 349.517 l
+406.8 349.517 l
+406.8 368.41 l
+384.48 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 387.302 m
+384.48 368.41 l
+406.8 368.41 l
+406.8 387.302 l
+384.48 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 406.195 m
+384.48 387.302 l
+406.8 387.302 l
+406.8 406.195 l
+384.48 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 425.088 m
+384.48 406.195 l
+406.8 406.195 l
+406.8 425.088 l
+384.48 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 66.1248 m
+406.8 47.232 l
+429.12 47.232 l
+429.12 66.1248 l
+406.8 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 85.0176 m
+406.8 66.1248 l
+429.12 66.1248 l
+429.12 85.0176 l
+406.8 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 103.91 m
+406.8 85.0176 l
+429.12 85.0176 l
+429.12 103.91 l
+406.8 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 122.803 m
+406.8 103.91 l
+429.12 103.91 l
+429.12 122.803 l
+406.8 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 141.696 m
+406.8 122.803 l
+429.12 122.803 l
+429.12 141.696 l
+406.8 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 160.589 m
+406.8 141.696 l
+429.12 141.696 l
+429.12 160.589 l
+406.8 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 179.482 m
+406.8 160.589 l
+429.12 160.589 l
+429.12 179.482 l
+406.8 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 198.374 m
+406.8 179.482 l
+429.12 179.482 l
+429.12 198.374 l
+406.8 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 217.267 m
+406.8 198.374 l
+429.12 198.374 l
+429.12 217.267 l
+406.8 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 236.16 m
+406.8 217.267 l
+429.12 217.267 l
+429.12 236.16 l
+406.8 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 255.053 m
+406.8 236.16 l
+429.12 236.16 l
+429.12 255.053 l
+406.8 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 273.946 m
+406.8 255.053 l
+429.12 255.053 l
+429.12 273.946 l
+406.8 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 292.838 m
+406.8 273.946 l
+429.12 273.946 l
+429.12 292.838 l
+406.8 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 311.731 m
+406.8 292.838 l
+429.12 292.838 l
+429.12 311.731 l
+406.8 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 330.624 m
+406.8 311.731 l
+429.12 311.731 l
+429.12 330.624 l
+406.8 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 349.517 m
+406.8 330.624 l
+429.12 330.624 l
+429.12 349.517 l
+406.8 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 368.41 m
+406.8 349.517 l
+429.12 349.517 l
+429.12 368.41 l
+406.8 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 387.302 m
+406.8 368.41 l
+429.12 368.41 l
+429.12 387.302 l
+406.8 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 406.195 m
+406.8 387.302 l
+429.12 387.302 l
+429.12 406.195 l
+406.8 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 425.088 m
+406.8 406.195 l
+429.12 406.195 l
+429.12 425.088 l
+406.8 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 66.1248 m
+429.12 47.232 l
+451.44 47.232 l
+451.44 66.1248 l
+429.12 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 85.0176 m
+429.12 66.1248 l
+451.44 66.1248 l
+451.44 85.0176 l
+429.12 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 103.91 m
+429.12 85.0176 l
+451.44 85.0176 l
+451.44 103.91 l
+429.12 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 122.803 m
+429.12 103.91 l
+451.44 103.91 l
+451.44 122.803 l
+429.12 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 141.696 m
+429.12 122.803 l
+451.44 122.803 l
+451.44 141.696 l
+429.12 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 160.589 m
+429.12 141.696 l
+451.44 141.696 l
+451.44 160.589 l
+429.12 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 179.482 m
+429.12 160.589 l
+451.44 160.589 l
+451.44 179.482 l
+429.12 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 198.374 m
+429.12 179.482 l
+451.44 179.482 l
+451.44 198.374 l
+429.12 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 217.267 m
+429.12 198.374 l
+451.44 198.374 l
+451.44 217.267 l
+429.12 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 236.16 m
+429.12 217.267 l
+451.44 217.267 l
+451.44 236.16 l
+429.12 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 255.053 m
+429.12 236.16 l
+451.44 236.16 l
+451.44 255.053 l
+429.12 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 273.946 m
+429.12 255.053 l
+451.44 255.053 l
+451.44 273.946 l
+429.12 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 292.838 m
+429.12 273.946 l
+451.44 273.946 l
+451.44 292.838 l
+429.12 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 311.731 m
+429.12 292.838 l
+451.44 292.838 l
+451.44 311.731 l
+429.12 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 330.624 m
+429.12 311.731 l
+451.44 311.731 l
+451.44 330.624 l
+429.12 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 349.517 m
+429.12 330.624 l
+451.44 330.624 l
+451.44 349.517 l
+429.12 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 368.41 m
+429.12 349.517 l
+451.44 349.517 l
+451.44 368.41 l
+429.12 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 387.302 m
+429.12 368.41 l
+451.44 368.41 l
+451.44 387.302 l
+429.12 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 406.195 m
+429.12 387.302 l
+451.44 387.302 l
+451.44 406.195 l
+429.12 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 425.088 m
+429.12 406.195 l
+451.44 406.195 l
+451.44 425.088 l
+429.12 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 66.1248 m
+451.44 47.232 l
+473.76 47.232 l
+473.76 66.1248 l
+451.44 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 85.0176 m
+451.44 66.1248 l
+473.76 66.1248 l
+473.76 85.0176 l
+451.44 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 103.91 m
+451.44 85.0176 l
+473.76 85.0176 l
+473.76 103.91 l
+451.44 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 122.803 m
+451.44 103.91 l
+473.76 103.91 l
+473.76 122.803 l
+451.44 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 141.696 m
+451.44 122.803 l
+473.76 122.803 l
+473.76 141.696 l
+451.44 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 160.589 m
+451.44 141.696 l
+473.76 141.696 l
+473.76 160.589 l
+451.44 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 179.482 m
+451.44 160.589 l
+473.76 160.589 l
+473.76 179.482 l
+451.44 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 198.374 m
+451.44 179.482 l
+473.76 179.482 l
+473.76 198.374 l
+451.44 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 217.267 m
+451.44 198.374 l
+473.76 198.374 l
+473.76 217.267 l
+451.44 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 236.16 m
+451.44 217.267 l
+473.76 217.267 l
+473.76 236.16 l
+451.44 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 255.053 m
+451.44 236.16 l
+473.76 236.16 l
+473.76 255.053 l
+451.44 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 273.946 m
+451.44 255.053 l
+473.76 255.053 l
+473.76 273.946 l
+451.44 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 292.838 m
+451.44 273.946 l
+473.76 273.946 l
+473.76 292.838 l
+451.44 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 311.731 m
+451.44 292.838 l
+473.76 292.838 l
+473.76 311.731 l
+451.44 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 330.624 m
+451.44 311.731 l
+473.76 311.731 l
+473.76 330.624 l
+451.44 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 349.517 m
+451.44 330.624 l
+473.76 330.624 l
+473.76 349.517 l
+451.44 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 368.41 m
+451.44 349.517 l
+473.76 349.517 l
+473.76 368.41 l
+451.44 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 387.302 m
+451.44 368.41 l
+473.76 368.41 l
+473.76 387.302 l
+451.44 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 406.195 m
+451.44 387.302 l
+473.76 387.302 l
+473.76 406.195 l
+451.44 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 425.088 m
+451.44 406.195 l
+473.76 406.195 l
+473.76 425.088 l
+451.44 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 66.1248 m
+473.76 47.232 l
+496.08 47.232 l
+496.08 66.1248 l
+473.76 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 85.0176 m
+473.76 66.1248 l
+496.08 66.1248 l
+496.08 85.0176 l
+473.76 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 103.91 m
+473.76 85.0176 l
+496.08 85.0176 l
+496.08 103.91 l
+473.76 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 122.803 m
+473.76 103.91 l
+496.08 103.91 l
+496.08 122.803 l
+473.76 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 141.696 m
+473.76 122.803 l
+496.08 122.803 l
+496.08 141.696 l
+473.76 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 160.589 m
+473.76 141.696 l
+496.08 141.696 l
+496.08 160.589 l
+473.76 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 179.482 m
+473.76 160.589 l
+496.08 160.589 l
+496.08 179.482 l
+473.76 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 198.374 m
+473.76 179.482 l
+496.08 179.482 l
+496.08 198.374 l
+473.76 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 217.267 m
+473.76 198.374 l
+496.08 198.374 l
+496.08 217.267 l
+473.76 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 236.16 m
+473.76 217.267 l
+496.08 217.267 l
+496.08 236.16 l
+473.76 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 255.053 m
+473.76 236.16 l
+496.08 236.16 l
+496.08 255.053 l
+473.76 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 273.946 m
+473.76 255.053 l
+496.08 255.053 l
+496.08 273.946 l
+473.76 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 292.838 m
+473.76 273.946 l
+496.08 273.946 l
+496.08 292.838 l
+473.76 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 311.731 m
+473.76 292.838 l
+496.08 292.838 l
+496.08 311.731 l
+473.76 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 330.624 m
+473.76 311.731 l
+496.08 311.731 l
+496.08 330.624 l
+473.76 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 349.517 m
+473.76 330.624 l
+496.08 330.624 l
+496.08 349.517 l
+473.76 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 368.41 m
+473.76 349.517 l
+496.08 349.517 l
+496.08 368.41 l
+473.76 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 387.302 m
+473.76 368.41 l
+496.08 368.41 l
+496.08 387.302 l
+473.76 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 406.195 m
+473.76 387.302 l
+496.08 387.302 l
+496.08 406.195 l
+473.76 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 425.088 m
+473.76 406.195 l
+496.08 406.195 l
+496.08 425.088 l
+473.76 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 66.1248 m
+496.08 47.232 l
+518.4 47.232 l
+518.4 66.1248 l
+496.08 66.1248 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 85.0176 m
+496.08 66.1248 l
+518.4 66.1248 l
+518.4 85.0176 l
+496.08 85.0176 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 103.91 m
+496.08 85.0176 l
+518.4 85.0176 l
+518.4 103.91 l
+496.08 103.91 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 122.803 m
+496.08 103.91 l
+518.4 103.91 l
+518.4 122.803 l
+496.08 122.803 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 141.696 m
+496.08 122.803 l
+518.4 122.803 l
+518.4 141.696 l
+496.08 141.696 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 160.589 m
+496.08 141.696 l
+518.4 141.696 l
+518.4 160.589 l
+496.08 160.589 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 179.482 m
+496.08 160.589 l
+518.4 160.589 l
+518.4 179.482 l
+496.08 179.482 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 198.374 m
+496.08 179.482 l
+518.4 179.482 l
+518.4 198.374 l
+496.08 198.374 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 217.267 m
+496.08 198.374 l
+518.4 198.374 l
+518.4 217.267 l
+496.08 217.267 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 236.16 m
+496.08 217.267 l
+518.4 217.267 l
+518.4 236.16 l
+496.08 236.16 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 255.053 m
+496.08 236.16 l
+518.4 236.16 l
+518.4 255.053 l
+496.08 255.053 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 273.946 m
+496.08 255.053 l
+518.4 255.053 l
+518.4 273.946 l
+496.08 273.946 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 292.838 m
+496.08 273.946 l
+518.4 273.946 l
+518.4 292.838 l
+496.08 292.838 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 311.731 m
+496.08 292.838 l
+518.4 292.838 l
+518.4 311.731 l
+496.08 311.731 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 330.624 m
+496.08 311.731 l
+518.4 311.731 l
+518.4 330.624 l
+496.08 330.624 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 349.517 m
+496.08 330.624 l
+518.4 330.624 l
+518.4 349.517 l
+496.08 349.517 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 368.41 m
+496.08 349.517 l
+518.4 349.517 l
+518.4 368.41 l
+496.08 368.41 l
+gsave
+fill
+grestore
+stroke
+grestore
+1.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 387.302 m
+496.08 368.41 l
+518.4 368.41 l
+518.4 387.302 l
+496.08 387.302 l
+gsave
+fill
+grestore
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 406.195 m
+496.08 387.302 l
+518.4 387.302 l
+518.4 406.195 l
+496.08 406.195 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 0.500 0.000 setrgbcolor
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 425.088 m
+496.08 406.195 l
+518.4 406.195 l
+518.4 425.088 l
+496.08 425.088 l
+gsave
+fill
+grestore
+stroke
+grestore
+0.000 setgray
+gsave
+446.4 377.9 72 47.23 clipbox
+94.32 47.232 m
+94.32 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 66.1248 m
+518.4 66.1248 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+116.64 47.232 m
+116.64 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 85.0176 m
+518.4 85.0176 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+138.96 47.232 m
+138.96 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 103.91 m
+518.4 103.91 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+161.28 47.232 m
+161.28 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 122.803 m
+518.4 122.803 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+183.6 47.232 m
+183.6 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 141.696 m
+518.4 141.696 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+205.92 47.232 m
+205.92 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 160.589 m
+518.4 160.589 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+228.24 47.232 m
+228.24 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 179.482 m
+518.4 179.482 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+250.56 47.232 m
+250.56 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 198.374 m
+518.4 198.374 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+272.88 47.232 m
+272.88 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 217.267 m
+518.4 217.267 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+295.2 47.232 m
+295.2 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 236.16 m
+518.4 236.16 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+317.52 47.232 m
+317.52 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 255.053 m
+518.4 255.053 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+339.84 47.232 m
+339.84 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 273.946 m
+518.4 273.946 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+362.16 47.232 m
+362.16 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 292.838 m
+518.4 292.838 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+384.48 47.232 m
+384.48 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 311.731 m
+518.4 311.731 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+406.8 47.232 m
+406.8 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 330.624 m
+518.4 330.624 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+429.12 47.232 m
+429.12 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 349.517 m
+518.4 349.517 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+451.44 47.232 m
+451.44 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 368.41 m
+518.4 368.41 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+473.76 47.232 m
+473.76 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 387.302 m
+518.4 387.302 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+496.08 47.232 m
+496.08 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 406.195 m
+518.4 406.195 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+518.4 47.232 m
+518.4 425.088 l
+stroke
+grestore
+gsave
+446.4 377.9 72 47.23 clipbox
+72 425.088 m
+518.4 425.088 l
+stroke
+grestore
+0.500 setlinewidth
+0 setlinecap
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 4 l
+stroke
+grestore
+} bind def
+72 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 -4 l
+stroke
+grestore
+} bind def
+72 425.088 o
+grestore
+/DejaVuSans findfont
+12.000 scalefont
+setfont
+gsave
+68.976562 34.153875 translate
+0.000000 rotate
+0.000000 0.171875 m /zero glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 4 l
+stroke
+grestore
+} bind def
+183.6 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 -4 l
+stroke
+grestore
+} bind def
+183.6 425.088 o
+grestore
+gsave
+180.764062 34.310125 translate
+0.000000 rotate
+0.000000 0.171875 m /five glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 4 l
+stroke
+grestore
+} bind def
+295.2 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 -4 l
+stroke
+grestore
+} bind def
+295.2 425.088 o
+grestore
+gsave
+288.614062 34.153875 translate
+0.000000 rotate
+0.000000 0.171875 m /one glyphshow
+7.634766 0.171875 m /zero glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 4 l
+stroke
+grestore
+} bind def
+406.8 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 -4 l
+stroke
+grestore
+} bind def
+406.8 425.088 o
+grestore
+gsave
+400.339063 34.310125 translate
+0.000000 rotate
+0.000000 0.171875 m /one glyphshow
+7.634766 0.171875 m /five glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 4 l
+stroke
+grestore
+} bind def
+518.4 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+0 -4 l
+stroke
+grestore
+} bind def
+518.4 425.088 o
+grestore
+gsave
+511.595312 34.153875 translate
+0.000000 rotate
+0.000000 0.171875 m /two glyphshow
+7.634766 0.171875 m /zero glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+4 0 l
+stroke
+grestore
+} bind def
+72 47.232 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+-4 0 l
+stroke
+grestore
+} bind def
+518.4 47.232 o
+grestore
+gsave
+61.953125 42.692937 translate
+0.000000 rotate
+0.000000 0.171875 m /zero glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+4 0 l
+stroke
+grestore
+} bind def
+72 141.696 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+-4 0 l
+stroke
+grestore
+} bind def
+518.4 141.696 o
+grestore
+gsave
+62.328125 137.235063 translate
+0.000000 rotate
+0.000000 0.171875 m /five glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+4 0 l
+stroke
+grestore
+} bind def
+72 236.16 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+-4 0 l
+stroke
+grestore
+} bind def
+518.4 236.16 o
+grestore
+gsave
+54.828125 231.620938 translate
+0.000000 rotate
+0.000000 0.171875 m /one glyphshow
+7.634766 0.171875 m /zero glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+4 0 l
+stroke
+grestore
+} bind def
+72 330.624 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+-4 0 l
+stroke
+grestore
+} bind def
+518.4 330.624 o
+grestore
+gsave
+55.078125 326.163063 translate
+0.000000 rotate
+0.000000 0.171875 m /one glyphshow
+7.634766 0.171875 m /five glyphshow
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+4 0 l
+stroke
+grestore
+} bind def
+72 425.088 o
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0 0 m
+-4 0 l
+stroke
+grestore
+} bind def
+518.4 425.088 o
+grestore
+gsave
+54.390625 420.548938 translate
+0.000000 rotate
+0.000000 0.171875 m /two glyphshow
+7.634766 0.171875 m /zero glyphshow
+grestore
+1.000 setlinewidth
+2 setlinecap
+gsave
+72 425.088 m
+518.4 425.088 l
+stroke
+grestore
+gsave
+518.4 47.232 m
+518.4 425.088 l
+stroke
+grestore
+gsave
+72 47.232 m
+518.4 47.232 l
+stroke
+grestore
+gsave
+72 47.232 m
+72 425.088 l
+stroke
+grestore
+
+end
+showpage
